@@ -143,7 +143,7 @@ AI 수정·얼굴 교체 여부 또는 촬영 조건이 불명확한 사진에 �
 
 정적 HTML·CSS·JavaScript. 별도 빌드·DB 없이 GitHub Pages 제공 가능. index.html, assets/, PRD.md, README.md, .nojekyll을 전달한다. 저장소에 내부 신청폼·회의록·개인 정보·인증정보는 포함하지 않는다.
 
-개인 아이디 dldpdls1020을 방문 주소에 넣지 않는다. **yepp eumeul deohada의 붙여쓰기 영문 표기인 yeppeumeuldeohada**를 GitHub 조직 이름 후보로 사용한다. 사용 가능 여부 확인 후 조직 소유 yeppeumeuldeohada.github.io 저장소를 만들면 같은 이름의 Pages 주소를 사용할 수 있다. 아직 확보·게시 전인 주소를 완료 주소처럼 안내하지 않는다. 다른 이름이 필요하면 사용자와 조정한다.
+개인 아이디 dldpdls1020을 방문 주소에 넣지 않는다. **예쁨을더하다의 영문 표기인 yeppeumeuldeohada**를 GitHub 조직 이름 후보로 사용한다. 사용 가능 여부 확인 후 조직 소유 yeppeumeuldeohada.github.io 저장소를 만들면 같은 이름의 Pages 주소를 사용할 수 있다. 아직 확보·게시 전인 주소를 완료 주소처럼 안내하지 않는다. 다른 이름이 필요하면 사용자와 조정한다.
 
 GitHub 조직 생성 과정에 약관 동의·계정 확인이 있으면 해당 단계에서 사용자에게 필요한 조작을 안내한다. 배포 후 Pages 성공 상태와 실제 페이지 응답을 모두 확인한다.
 
@@ -163,3 +163,11 @@ GitHub 조직 생성 과정에 약관 동의·계정 확인이 있으면 해당 
 ## 10. 성과 측정 계획
 
 첫 공개 후 방문수 대비 카카오·네이버·전화 클릭 비율을 살피고 실제 상담·예약은 매장 기록과 대조한다. 초기 수치 목표는 데이터 없이 보장하지 않는다. 광고 집행·계정 연결·추적 코드는 별도 범위다. CTA 문구와 히어로 사진을 한 항목씩 바꿔 비교한다.
+
+## 11. 게시 결과 · 2026-10-30
+
+- 홈페이지: https://yeppeumeuldeohada.github.io/
+- 저장소: https://github.com/yeppeumeuldeohada/yeppeumeuldeohada.github.io
+- GitHub 조직 사이트로 게시 완료. 홈페이지 주소에 개인 아이디 없음.
+- 실제 페이지 HTTP 200, 이미지·내부 앵커 확인, 모바일 가로 넘침 없음, FAQ 열림 확인, 새로고침 후 scrollY=0 확인.
+- 1440px 데스크톱에서도 가로 넘침 없음. 외부 링크는 제공된 목적지와 일치하며 예약 완료 자체를 시험한 것은 아님.

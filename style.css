@@ -20,3 +20,11 @@ video.hero-bg{object-fit:cover}
 /* Lift the copy to just below the chin. */
 .hero-copy{transform:translateY(-150px)}
 @media(max-width:800px){.hero-copy{transform:translateY(-180px)}}
+
+.hero-event{margin:22px 0 8px;text-shadow:0 2px 18px #24160b66}
+.hero-event>span{display:block;font-size:19px;font-weight:500;letter-spacing:-.4px}
+.hero-event>strong{display:inline-block;margin:5px 0;color:#e6edab;font-size:52px;line-height:1.3;letter-spacing:-2px;transform-origin:center;animation:price-pulse 2.4s ease-in-out infinite}
+.hero .hero-event>small{display:inline-block;margin-left:9px;font-size:13px}
+@keyframes price-pulse{0%,100%{transform:scale(1);text-shadow:0 0 0 #e6edab00}50%{transform:scale(1.055);text-shadow:0 0 20px #e6edab55}}
+@media(max-width:800px){.hero-event>span{font-size:18px}.hero-event>strong{font-size:45px}.hero .hero-event>small{font-size:11px}.hero-copy{transform:translateY(-90px)}}
+@media(prefers-reduced-motion:reduce){.hero-event>strong{animation:none}}

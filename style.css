@@ -3,3 +3,9 @@
 main{overflow:clip}.hero-bottom{bottom:85px}@media(min-width:801px){.hero-bottom{bottom:24px}}
 
 video.hero-bg{object-fit:cover}
+
+/* Lower hero copy and bottom lettering while preserving the video overlay. */
+.hero-copy{padding-top:150px}
+.wordmark{bottom:-35px}
+.hero-bottom{bottom:5px}
+@media(max-width:800px){.hero{min-height:820px}.hero-copy{padding-top:155px}.wordmark{bottom:12px}.hero-bottom{bottom:37px}}

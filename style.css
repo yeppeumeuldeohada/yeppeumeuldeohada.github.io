@@ -16,3 +16,7 @@ video.hero-bg{object-fit:cover}
 .wordmark{bottom:5px;font-size:clamp(100px,18vw,245px);color:#f0e2cd26}
 .hero-bottom{bottom:22px}
 @media(max-width:800px){.hero{height:1020px;min-height:0}.hero-bg{height:74%;object-position:center 25%}.hero-copy{padding:0 22px 120px}.hero h1{font-size:30px;line-height:1.45;letter-spacing:-1.3px}.hero-copy .eyebrow{font-size:9px;letter-spacing:1.8px}.hero p:not(.eyebrow){font-size:14px}.hero small{font-size:10px}.wordmark{bottom:26px}.hero-bottom{bottom:20px}}
+
+/* Lift the copy to just below the chin. */
+.hero-copy{transform:translateY(-150px)}
+@media(max-width:800px){.hero-copy{transform:translateY(-180px)}}

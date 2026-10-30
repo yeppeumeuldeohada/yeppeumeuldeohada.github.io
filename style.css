@@ -30,3 +30,9 @@ video.hero-bg{object-fit:cover}
 @media(prefers-reduced-motion:reduce){.hero-event>strong{animation:none}}
 
 .hero-event-line{display:flex;align-items:center;justify-content:center;gap:10px}.hero .hero-event-line>small{display:inline-block;font-size:16px;margin:0;color:#f4ede3}@media(max-width:800px){.hero .hero-event-line>small{font-size:14px}}
+
+/* Shorter hero tail without moving the portrait copy upward. */
+.hero{height:900px}.hero-bg{height:853px}.hero-copy{transform:translateY(-10px)}
+.hero-event-line>strong{display:inline-block;margin:5px 0;color:#e6edab;font-size:58px;font-weight:750;line-height:1.3;letter-spacing:-2px;transform-origin:center;animation:price-pulse 2s ease-in-out infinite}
+@media(max-width:800px){.hero{height:880px}.hero-bg{height:755px}.hero-copy{transform:translateY(50px)}.hero-event-line>strong{font-size:50px}.wordmark{font-size:70px;bottom:8px}.hero-bottom{bottom:10px}}
+@media(prefers-reduced-motion:reduce){.hero-event-line>strong{animation:none}}

@@ -41,3 +41,15 @@ video.hero-bg{object-fit:cover}
 .hero{height:950px}.hero-copy{transform:translateY(-60px)}
 .wordmark{bottom:62px;font-size:clamp(100px,18vw,245px)}.hero-bottom{bottom:20px}
 @media(max-width:800px){.hero{height:930px}.hero-copy{transform:translateY(0)}.wordmark{bottom:53px;font-size:70px}.hero-bottom{bottom:16px}}
+
+/* Desktop: reserve the portrait side exclusively for the video. */
+@media(min-width:801px){
+.hero{height:900px;align-items:center;justify-content:flex-start;text-align:left}
+.hero-bg{left:auto;right:0;top:0;width:56%;height:100%;object-position:center center}
+.hero-shade{background:linear-gradient(90deg,#493022 0%,#493022 38%,rgba(73,48,34,.92) 45%,rgba(56,37,25,.6) 58%,rgba(52,34,21,.6) 100%)}
+.hero-copy{width:46%;padding:45px 25px 125px max(35px,5vw);transform:none;text-align:left}
+.hero h1{font-size:clamp(28px,2.6vw,44px);letter-spacing:-1.6px}
+.hero-event-line{justify-content:flex-start}
+.wordmark{left:5%;transform:none;font-size:clamp(90px,11vw,160px);bottom:57px}
+.hero-bottom{left:5%;right:auto;bottom:22px;gap:35px}
+}

@@ -28,3 +28,5 @@ video.hero-bg{object-fit:cover}
 @keyframes price-pulse{0%,100%{transform:scale(1);text-shadow:0 0 0 #e6edab00}50%{transform:scale(1.055);text-shadow:0 0 20px #e6edab55}}
 @media(max-width:800px){.hero-event>span{font-size:18px}.hero-event>strong{font-size:45px}.hero .hero-event>small{font-size:11px}.hero-copy{transform:translateY(-90px)}}
 @media(prefers-reduced-motion:reduce){.hero-event>strong{animation:none}}
+
+.hero-event-line{display:flex;align-items:center;justify-content:center;gap:10px}.hero .hero-event-line>small{display:inline-block;font-size:16px;margin:0;color:#f4ede3}@media(max-width:800px){.hero .hero-event-line>small{font-size:14px}}

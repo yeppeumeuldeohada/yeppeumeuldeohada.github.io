@@ -11,3 +11,5 @@
 .gallery .result-card figcaption{padding:26px 30px;margin:0}.gallery .result-card figcaption>span{font-size:12px;color:#97785b}.result-card h3{font-size:25px;line-height:1.45;letter-spacing:-1px;margin:8px 0 12px}.result-card p{font-size:14px;margin:0}
 .carousel-controls{display:flex;justify-content:center;align-items:center;gap:25px;margin:24px 0 0}.carousel-controls button{border:1px solid #d6c8b8;background:transparent;color:#70533d;border-radius:50%;width:44px;height:44px;font-size:21px;cursor:pointer}.carousel-controls button:hover{background:#eee5d9}.carousel-controls button:disabled{opacity:.3;cursor:default}.case-count{font-size:13px;color:#82674f;min-width:42px;text-align:center}
 @media(max-width:800px){.gallery .result-card img{height:340px}.card-heading{padding:16px 19px}.card-heading span{font-size:9px}.gallery .result-card figcaption{padding:22px}.result-card h3{font-size:23px}.result-card p{font-size:13px}}
+
+.gallery .result-card img{height:auto;max-height:none;object-fit:contain}.gallery{align-items:start}.gallery .result-card figcaption{padding:18px 24px}.result-card h3{font-size:18px;margin:4px 0 0}

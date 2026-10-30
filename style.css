@@ -4,17 +4,15 @@ main{overflow:clip}.hero-bottom{bottom:85px}@media(min-width:801px){.hero-bottom
 
 video.hero-bg{object-fit:cover}
 
-/* Lower hero copy and bottom lettering while preserving the video overlay. */
-.hero-copy{padding-top:150px}
-.wordmark{bottom:-35px}
-.hero-bottom{bottom:5px}
-@media(max-width:800px){.hero{min-height:820px}.hero-copy{padding-top:155px}.wordmark{bottom:12px}.hero-bottom{bottom:37px}}
-
-/* Keep all hero copy below the portrait area. */
-.hero{--video-height:clamp(480px,72svh,760px);height:auto;min-height:0;max-height:none;background:#493022}
-.hero-bg{height:var(--video-height)}
-.hero-shade{height:var(--video-height)}
-.hero-copy{width:100%;padding:calc(var(--video-height) + 48px) 24px 210px}
-.wordmark{bottom:18px;font-size:clamp(100px,22vw,300px)}
-.hero-bottom{bottom:18px}
-@media(max-width:800px){.hero{--video-height:clamp(460px,68svh,680px);min-height:0}.hero-copy{padding:calc(var(--video-height) + 38px) 22px 155px}.wordmark{bottom:28px}.hero-bottom{bottom:16px}}
+/* Video and copy share one hero; copy sits over the lower gradient. */
+.hero{height:1040px;min-height:0;max-height:none;background:#493022;align-items:flex-end}
+.hero-bg{height:82%;object-position:center 25%}
+.hero-shade{height:100%;background:linear-gradient(180deg,rgba(56,37,25,.6) 0%,rgba(52,34,21,.6) 43%,rgba(73,48,34,.82) 72%,#493022 88%)}
+.hero-copy{padding:0 24px 130px;width:100%;text-shadow:0 2px 18px #24160b40}
+.hero-copy .eyebrow{margin-bottom:16px}
+.hero h1{font-size:44px;margin-bottom:16px}
+.hero p:not(.eyebrow){margin:12px 0;font-size:15px}
+.hero .button{margin:14px 0}
+.wordmark{bottom:5px;font-size:clamp(100px,18vw,245px);color:#f0e2cd26}
+.hero-bottom{bottom:22px}
+@media(max-width:800px){.hero{height:1020px;min-height:0}.hero-bg{height:74%;object-position:center 25%}.hero-copy{padding:0 22px 120px}.hero h1{font-size:30px;line-height:1.45;letter-spacing:-1.3px}.hero-copy .eyebrow{font-size:9px;letter-spacing:1.8px}.hero p:not(.eyebrow){font-size:14px}.hero small{font-size:10px}.wordmark{bottom:26px}.hero-bottom{bottom:20px}}

@@ -33,3 +33,7 @@ main>.wl-proof{background:#4a3327;color:#faf2e7}.wl-proof h2,.wl-proof h2 em{col
 video.hero-bg{background:#49382c}
 
 .hero .hero-fixed-lines{font-size:clamp(20px,2.35vw,38px);letter-spacing:-1.2px}.hero-fixed-lines>span{display:block;white-space:nowrap}@media(max-width:800px){.hero .hero-fixed-lines{font-size:clamp(18px,6.1vw,34px);letter-spacing:-1px}}
+
+/* Bring the mobile headline below the chin and rebalance price hierarchy. */
+.hero .hero-fixed-lines{font-size:clamp(23px,2.7vw,42px);letter-spacing:-1.4px}.hero-fixed-lines>span:first-child{font-size:1.1em}.hero-event-line strong{font-size:40px}
+@media(max-width:800px){.hero{height:840px}.hero .hero-fixed-lines{font-size:clamp(20px,6.9vw,35px);letter-spacing:-1.3px}.hero-event-line strong{font-size:35px}.hero-event-line small{font-size:12px}}

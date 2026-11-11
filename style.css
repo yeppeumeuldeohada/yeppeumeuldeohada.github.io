@@ -74,3 +74,8 @@ footer{background-color:#fbf8f3;background-image:linear-gradient(#fbf8f3e8,#f3e8
 @keyframes satin-flow{0%,100%{background-position:0% 40%}50%{background-position:100% 60%}}
 @media(prefers-reduced-motion:no-preference){main>.section,.conversion-facts,.help-quicknav,footer{background-size:115% 115%;animation:satin-flow 18s ease-in-out infinite}.motion .reveal{opacity:0;transform:translateY(32px);transition:opacity .75s ease,transform .85s cubic-bezier(.2,.7,.2,1);transition-delay:var(--reveal-delay,0ms)}.motion .reveal.visible{opacity:1;transform:translateY(0)}.button{transition:transform .25s ease,box-shadow .25s ease,background-color .25s ease}.button:hover{transform:translateY(-3px);box-shadow:0 9px 22px #51362220}.wl-case img{transition:transform .7s cubic-bezier(.2,.7,.2,1)}.wl-case:hover img{transform:scale(1.035)}}
 @media(prefers-reduced-motion:reduce){main>.section,.conversion-facts,.help-quicknav,footer{animation:none}.motion .reveal{opacity:1;transform:none;transition:none}}
+
+/* Small, quiet double bounce for the director's Naver Place link. */
+@keyframes naver-gentle-bounce{0%,52%,100%{transform:translateY(0)}62%{transform:translateY(-4px)}72%{transform:translateY(0)}80%{transform:translateY(-2px)}88%{transform:translateY(0)}}
+@media(prefers-reduced-motion:no-preference){.conversion-director .textlink{display:inline-block;animation:naver-gentle-bounce 1.8s ease-in-out infinite}.conversion-director .textlink:hover,.conversion-director .textlink:focus-visible{animation-play-state:paused}}
+@media(prefers-reduced-motion:reduce){.conversion-director .textlink{animation:none}}

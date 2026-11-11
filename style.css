@@ -69,3 +69,8 @@ main>.wl-proof{--silk-tint:#faf4e9bf;--silk-end:#faf4e9d6;background-position:ce
 main>.wl-closing{--silk-tint:#b78d68c9;--silk-end:#dbc0a4d9;background-color:#d5b99b;background-position:center 70%}.wl-closing h2,.wl-closing h2 em{color:#493327!important}.wl-closing p{color:#654a36!important}.wl-closing .eyebrow{color:#705139!important}
 footer{background-color:#fbf8f3;background-image:linear-gradient(#fbf8f3e8,#f3e8d9e0),url('assets/beige-silk.png');background-size:cover;background-position:center bottom}
 @media(max-width:800px){main>.section{background-size:auto 100%;background-position:55% center}.wl-offer{background:#fffcf4c9}}
+
+/* Repeating scroll entrances and slow satin flow. */
+@keyframes satin-flow{0%,100%{background-position:0% 40%}50%{background-position:100% 60%}}
+@media(prefers-reduced-motion:no-preference){main>.section,.conversion-facts,.help-quicknav,footer{background-size:115% 115%;animation:satin-flow 18s ease-in-out infinite}.motion .reveal{opacity:0;transform:translateY(32px);transition:opacity .75s ease,transform .85s cubic-bezier(.2,.7,.2,1);transition-delay:var(--reveal-delay,0ms)}.motion .reveal.visible{opacity:1;transform:translateY(0)}.button{transition:transform .25s ease,box-shadow .25s ease,background-color .25s ease}.button:hover{transform:translateY(-3px);box-shadow:0 9px 22px #51362220}.wl-case img{transition:transform .7s cubic-bezier(.2,.7,.2,1)}.wl-case:hover img{transform:scale(1.035)}}
+@media(prefers-reduced-motion:reduce){main>.section,.conversion-facts,.help-quicknav,footer{animation:none}.motion .reveal{opacity:1;transform:none;transition:none}}

@@ -79,3 +79,13 @@ footer{background-color:#fbf8f3;background-image:linear-gradient(#fbf8f3e8,#f3e8
 @keyframes naver-gentle-bounce{0%,52%,100%{transform:translateY(0)}62%{transform:translateY(-4px)}72%{transform:translateY(0)}80%{transform:translateY(-2px)}88%{transform:translateY(0)}}
 @media(prefers-reduced-motion:no-preference){.conversion-director .textlink{display:inline-block;animation:naver-gentle-bounce 1.8s ease-in-out infinite}.conversion-director .textlink:hover,.conversion-director .textlink:focus-visible{animation-play-state:paused}}
 @media(prefers-reduced-motion:reduce){.conversion-director .textlink{animation:none}}
+
+/* One continuous fabric canvas across facts and real work. */
+.silk-results-flow{background:#faf4e9;background-image:linear-gradient(115deg,#faf4e9bf,#faf4e9d6),url('assets/beige-silk.png');background-size:115% 115%;background-position:center;background-repeat:no-repeat}
+.silk-results-flow>.conversion-facts{background:none;animation:none}
+.silk-results-flow>.wl-proof{padding:100px max(6%,calc((100% - 1120px)/2));background:none;color:#4a3327}
+.silk-results-flow>.wl-proof h2{font-size:clamp(29px,2.7vw,40px);font-weight:500;line-height:1.65;letter-spacing:-1.6px}
+.silk-results-flow>.wl-proof p{font-size:15px;line-height:2.05}
+.silk-results-flow>.wl-proof .eyebrow{font-size:10px;letter-spacing:2px;margin-bottom:24px;font-weight:500}
+@media(prefers-reduced-motion:no-preference){.silk-results-flow{animation:satin-flow 18s ease-in-out infinite}}
+@media(max-width:800px){.silk-results-flow>.wl-proof{padding:65px 23px}.silk-results-flow>.wl-proof h2{font-size:29px;line-height:1.6}.silk-results-flow>.wl-proof p{font-size:14px}.silk-results-flow>.wl-proof .eyebrow{font-size:9px;margin-bottom:22px}}

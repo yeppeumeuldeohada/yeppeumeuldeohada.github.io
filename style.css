@@ -89,3 +89,7 @@ footer{background-color:#fbf8f3;background-image:linear-gradient(#fbf8f3e8,#f3e8
 .silk-results-flow>.wl-proof .eyebrow{font-size:10px;letter-spacing:2px;margin-bottom:24px;font-weight:500}
 @media(prefers-reduced-motion:no-preference){.silk-results-flow{animation:satin-flow 18s ease-in-out infinite}}
 @media(max-width:800px){.silk-results-flow>.wl-proof{padding:65px 23px}.silk-results-flow>.wl-proof h2{font-size:29px;line-height:1.6}.silk-results-flow>.wl-proof p{font-size:14px}.silk-results-flow>.wl-proof .eyebrow{font-size:9px;margin-bottom:22px}}
+
+/* Brief case-by-case reading notes; existing background and motion preserved. */
+.wl-case>.case-story{display:block;background:transparent;overflow:visible;padding:15px 0 4px;box-shadow:none}.case-story>strong{display:block;font-size:17px;font-weight:500;line-height:1.6;color:#4a3327;letter-spacing:-.5px}.case-story>span{display:block;margin-top:8px;font-size:13px;line-height:1.9;color:#796650;letter-spacing:0}.wl-lightbox .case-light-caption{font-size:13px;line-height:1.85;color:#654a36;max-width:620px;margin:15px auto 0;text-align:left}.wl-lightbox:has(.case-light-caption)>img{height:60svh}
+@media(max-width:800px){.case-story>strong{font-size:16px}.case-story>span{font-size:12px}.wl-lightbox .case-light-caption{font-size:12px}.wl-lightbox:has(.case-light-caption)>img{height:55svh}}

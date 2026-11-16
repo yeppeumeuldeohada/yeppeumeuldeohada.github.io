@@ -215,3 +215,8 @@ main>#mens.help-mens{background:#49382a!important;color:#fff8ee;--silk-tint:#493
 .wl-location .phone-icon{display:inline-block;font-size:.85em;line-height:1;flex:none}
 @media(max-width:800px){.wl-location .store-hours{font-size:18px}.wl-location .phone-call-button{font-size:20px;padding:14px 15px;gap:7px}}
 @media(max-width:360px){.wl-location .phone-call-button{font-size:18px;padding:13px 10px}.wl-location .store-hours{font-size:17px}}
+
+/* Compact the photo consultation accordion. */
+#booking .booking-prep{padding:0;margin:0 0 16px;border-top:0}
+#booking .booking-prep summary{padding:12px 28px 12px 0;line-height:1.6}
+#booking .help-offer-terms{margin-bottom:10px}

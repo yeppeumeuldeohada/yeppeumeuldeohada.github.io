@@ -207,3 +207,11 @@ main>#mens.help-mens{background:#49382a!important;color:#fff8ee;--silk-tint:#493
 #design .salon-service-facts span{font-size:13px}
 #worry .wl-ending{font-size:clamp(17px,4.4vw,24px)!important;letter-spacing:-.8px}
 @media(max-width:600px){#design .salon-service-facts strong{font-size:21px}#design .salon-service-facts span{font-size:11px}#design .salon-service-facts{gap:8px}#worry .wl-ending{font-size:clamp(15px,4.4vw,19px)!important;letter-spacing:-.9px}}
+
+/* Single divider under included care and clearer contact details. */
+#booking .booking-prep{border-top:0}
+.wl-location .store-hours{font-size:20px;font-weight:600;line-height:1.7;color:#493222}
+.wl-location .phone-call-button{display:inline-flex;align-items:center;justify-content:center;gap:9px}
+.wl-location .phone-icon{display:inline-block;font-size:.85em;line-height:1;flex:none}
+@media(max-width:800px){.wl-location .store-hours{font-size:18px}.wl-location .phone-call-button{font-size:20px;padding:14px 15px;gap:7px}}
+@media(max-width:360px){.wl-location .phone-call-button{font-size:18px;padding:13px 10px}.wl-location .store-hours{font-size:17px}}

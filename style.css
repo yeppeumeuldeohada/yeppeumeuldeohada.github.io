@@ -200,3 +200,10 @@ main>#mens.help-mens{background:#49382a!important;color:#fff8ee;--silk-tint:#493
 #booking .event-standard strong{font-weight:700;color:#6e4329}
 #booking .technique-price-note{display:block;font-size:16px;color:#94522e;font-weight:600;margin-top:8px}
 @media(max-width:360px){#worry .wl-ending{font-size:14px!important;letter-spacing:-.8px}#booking .help-offer-terms p{font-size:17px}}
+
+/* Center the male portrait on the face and slightly lift text scale. */
+#mens .wl-gallery .wl-case.men-focus img,#mens .wl-gallery .wl-case.men-focus:hover img{object-position:65% 62%;transform:scale(1.16);transform-origin:65% 45%}
+#design .salon-service-facts strong{font-size:27px}
+#design .salon-service-facts span{font-size:13px}
+#worry .wl-ending{font-size:clamp(17px,4.4vw,24px)!important;letter-spacing:-.8px}
+@media(max-width:600px){#design .salon-service-facts strong{font-size:21px}#design .salon-service-facts span{font-size:11px}#design .salon-service-facts{gap:8px}#worry .wl-ending{font-size:clamp(15px,4.4vw,19px)!important;letter-spacing:-.9px}}

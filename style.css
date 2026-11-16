@@ -165,3 +165,9 @@ a.channel-kakao:hover,.section a.button.channel-kakao:hover{background:#f3dc00;c
 .process-video-badge{position:absolute;z-index:1;left:14px;top:14px;padding:7px 15px;border-radius:30px;background:#645d4c99;color:#fff;font-size:15px;letter-spacing:.12em}
 .process-video-note{font-size:14px!important;color:#867968;margin-top:20px!important}
 @media(max-width:600px){.wl-gallery,.men-results .wl-gallery{gap:22px}.process-video-badge{left:10px;top:10px;font-size:12px;padding:6px 11px}.process-media-duo{gap:12px}.process-media-duo figcaption strong{font-size:18px}.process-media-duo figcaption span{font-size:14px;line-height:1.7}}
+
+.salon-service-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;text-align:center;padding:40px 12px;margin-top:34px;color:#6c4f39}
+.salon-service-facts>div{display:flex;flex-direction:column;align-items:center;gap:20px}
+.salon-service-facts strong{font-size:30px;font-weight:600;line-height:1.3}
+.salon-service-facts span{font-size:17px;line-height:1.7;color:#887b6b}
+@media(max-width:600px){.salon-service-facts{gap:10px;padding:28px 0}.salon-service-facts strong{font-size:25px}.salon-service-facts span{font-size:13px;word-break:keep-all}.salon-service-facts>div{gap:14px}}

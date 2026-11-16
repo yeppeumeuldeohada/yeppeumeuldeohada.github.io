@@ -189,3 +189,5 @@ main>#mens.help-mens{background:#49382a!important;color:#fff8ee;--silk-tint:#493
 #design .salon-service-facts{padding-top:16px;padding-bottom:12px;margin-top:12px}
 #design .design-grid{margin-bottom:0}
 @media(max-width:800px){#design.section{padding-bottom:28px}#design .salon-service-facts{padding-top:14px;padding-bottom:8px;margin-top:8px}}
+
+#design .salon-service-facts strong{white-space:nowrap;font-variant-numeric:tabular-nums}#design .salon-service-facts strong b{font:inherit}#design .salon-service-facts strong small{font-size:.45em;margin-left:3px;font-weight:500}
